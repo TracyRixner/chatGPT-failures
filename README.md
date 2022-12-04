@@ -7,3 +7,7 @@ This repo is primiarily used as a collection for all the challenging tasks and l
 ### Biased Content
 
 
+### Unable to compile
+* [explain-this-code-for-me](explain-this-code-for-me.md)
+
+
