@@ -1,7 +1,7 @@
 **Question:**
 
 explain this code for me. 
-
+```
 #define makeLambdaFromMethod(VAR, METHOD) (makeLambdaUsingMethod (getTypeName <typename std::remove_reference<decltype(*VAR)>::type> (),        \
     std :: string (#METHOD), VAR,                                                            \
     getTypeName <typename std::remove_reference<decltype(*VAR)>::type> (),                                        \
@@ -106,6 +106,8 @@ explain this code for me.
     }))
 
 }
+```
+
 **Answer:**
   
 This code defines a macro called makeLambdaFromMethod that can be used to create a lambda function from a class method. A lambda function is a function that can be defined and called within the same code block, and is often used in C++ for functional programming.
